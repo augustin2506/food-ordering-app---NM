@@ -1,0 +1,108 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #faf5f5;
+    
+}
+/* Add a background image to the entire page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fcf5f5;
+    background-image: url('img/pexels-lum3n-44775-568370.jpg'); /* Replace with your image filename */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+}
+
+/* Optional: Add a background to a specific section */
+header {
+    background: rgba(255, 99, 71, 0.9); /* Add slight transparency to overlay */
+    background-image: url('img/app\ hedad\ pic.jpg'); /* Replace with your header image filename */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header {
+    background: #ff6347;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+#menu, #cart {
+    margin-bottom: 2rem;
+}
+
+.menu-item {
+    border: 1px solid #f8f6f6;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item h3 {
+    margin: 0;
+}
+
+button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cart-items li {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
