@@ -1,4 +1,4 @@
-# **FOOD RDERING APP -MERN STACK**
+# **FOOD ORDERING APP -MERN STACK**
 This is **Full stack** Restaurant app using **NextJS**(a production ready framework for ReactJS), **NodeJS**, **ExpressJS**, **MongoDB** and **TailwindCSS**.
 I have created my own server using **NodeJS** and **ExpressJS** and **MongoDB**(noSQL database) as databse to store the information.
 
